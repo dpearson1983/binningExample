@@ -15,6 +15,11 @@ struct int2{
     int x, y;
 };
 
+// Custom data structure to make storing single precision 2D vector data easier
+struct float2{
+    float x, y;
+};
+
 // Helper function to output the "galaxies" and randoms to files
 void writeFile(std::string fileName, std::vector<double2> points) {
     std::ofstream fout(fileName);
